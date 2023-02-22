@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2? family=Inter:wght@100&family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family=Inter:wght@100&family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
+/*les liens*/
+a:link {
+    color: black;
+    text-decoration: none;
+
+}
+a {
+    color: black;
+    
+}
+
+/*Barre de navigation*/
+
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    border-bottom: 8px solid #224898;
+}
+
+nav .profile h1 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+nav ul li:hover {
+    border-bottom-color: black;
+}
+
+
+/*header*/
+
+.page-content{
+    margin: 4%;
+}
+
+.page-content header {
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.page-content header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+}
+
+.page-content header p {
+    line-height: 30px;
+    color: gray;
+}
+
+.page-content header button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.page-content header button:hover {
+    color: gray;
+    border-bottom: 1px solid black;
+}
+
+/* Expériences professionnelles et formations*/
+.timeline-section {
+    background-color: #224898;
+    min-height: 100vh;
+    padding: 100px 15px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.timeline-items {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.timeline-items::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #2f363e;
+    left: calc(50% - 1px);
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+.timeline-item:nth-child(even) {
+    padding-left: calc(50% + 30px);
+}
+
+.timeline-dot {
+    height: 16px;
+    width: 16px;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10px;
+}
+
+.timeline-date {
+    font-size: 23px;
+    color: lightgoldenrodyellow;
+    margin: 6px 0 15px;
+}
+.timeline-content {
+    background-color: #5F9DF7;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.timeline-content h3 {
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+    margin: 0 0 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+
+}
+
+.timeline-content p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+
+}
+
+.timeline-section h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: #fdf4d4;
+
+}
+
+
+/*image présentation*/
+
+.page-content .presentation-image {
+    margin-top: 5%;
+}
+
+.page-content .presentation-image img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 1.5s;
+}
+
+.page-content .presentation-image img:hover {
+    filter: brightness(50%);
+}
+
+
+/*projets réalisés et en cours*/
+
+.page-content .projects-section {
+    margin-top: 6%;
+}
+
+.page-content .projects-section h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.page-content .projects-section .projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-content .projects-section .projects .project {
+    max-width: 195px;
+    margin-right: 20px;
+    
+}
+
+.page-content .projects-section .projects .project h4 {
+    margin: 0;
+}
+
+.page-content .projects-section .projects .project .description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+
+.page-content .projects-section .projects .project .dates {
+    font-size: 13px;
+    color: rgb(145, 145, 145);
+
+}
+
+/*bouton cover*/
+.projects-section button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+   
+}
+
+.projects-section button:hover {
+    color: gray;
+    border-bottom: 1px solid black;
+}
+
+/* pied de page */
+footer {
+    background-color: #5F9DF7;
+    padding: 25px 100px;
+    color: lightgoldenrodyellow;
+    font-size: 'Poppins', sans-serif;
+}
+
+footer .colonnes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*format mobile*/
+
+@media screen and (max-width: 700px) {
+    nav { 
+        justify-content: center;
+    }
+    nav ul {
+        display: none;
+    }
+
+    .page-content header {
+        margin-top: 10%;
+        max-width: 100%;
+    }
+
+    .page-content .projects-section {
+        margin-top: 15%;
+
+    }
+
+    .page-content .projects-section h1 {
+        font-size: 1.5em;
+    }
+
+    .page-content .projects-section .projects .project {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .timeline-items::before{
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even){
+        padding-left: 37px;
+    }
+    .timeline-dot{
+        left: 0;
+    }
+}
+
+
