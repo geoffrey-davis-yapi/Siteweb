@@ -4,12 +4,12 @@
 
 /*les liens*/
 a:link {
-    color: black;
+    color: #392920;
     text-decoration: none;
 
 }
 a {
-    color: black;
+    color: #392920;
     
 }
 
@@ -36,7 +36,7 @@ nav {
     width: 100%;
     top: 0;
     z-index: 999;
-    border-bottom: 8px solid #224898;
+    border-bottom: 8px solid #392920;
 }
 
 nav .profile h1 {
@@ -55,7 +55,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    border-bottom-color: black;
+    border-bottom-color: #392920;
 }
 
 
@@ -101,7 +101,7 @@ nav ul li:hover {
 
 /* Expériences professionnelles et formations*/
 .timeline-section {
-    background-color: #224898;
+    background-color: #FDF4D4;
     min-height: 100vh;
     padding: 100px 15px;
     font-family: 'Poppins', sans-serif;
@@ -147,7 +147,7 @@ nav ul li:hover {
 .timeline-dot {
     height: 16px;
     width: 16px;
-    background-color: lightgoldenrodyellow;
+    background-color: #392920;
     position: absolute;
     left: calc(50% - 8px);
     border-radius: 50%;
@@ -156,18 +156,18 @@ nav ul li:hover {
 
 .timeline-date {
     font-size: 23px;
-    color: lightgoldenrodyellow;
+    color: #392920;
     margin: 6px 0 15px;
 }
 .timeline-content {
-    background-color: #5F9DF7;
+    background-color: #E5BA73;
     padding: 30px;
     border-radius: 5px;
 }
 
 .timeline-content h3 {
     font-size: 20px;
-    color: lightgoldenrodyellow;
+    color: #392920;
     margin: 0 0 10px;
     text-transform: capitalize;
     font-weight: 500;
@@ -187,7 +187,7 @@ nav ul li:hover {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-size: 3vw;
-    color: #fdf4d4;
+    color: #392920;
 
 }
 
@@ -269,7 +269,7 @@ nav ul li:hover {
 
 /* pied de page */
 footer {
-    background-color: #5F9DF7;
+    background-color: #392920;
     padding: 25px 100px;
     color: lightgoldenrodyellow;
     font-size: 'Poppins', sans-serif;
