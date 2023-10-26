@@ -799,6 +799,7 @@ footer {
     padding: 25px 100px;
     color: var(--blue-dark);
     font-size: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 /* Responsive */
