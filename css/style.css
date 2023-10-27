@@ -234,11 +234,11 @@ button{
     border-radius: 50%;
 }
 .bg-circles .circles-1{
-    height: 180px;
-    width: 180px;
-    background-color: #AA5099;
-    left: 5%;
-    top: 10%;
+    height: 400px;
+    width: 400px;
+    background-color: #694B99;
+    left: -10%;
+    top: -5%;
     opacity: 0.3; 
     animation: zoomInOut 15s linear infinite;
 }
@@ -263,7 +263,7 @@ button{
 .bg-circles .circles-4{
     height: 300px;
     width: 300px;
-    background-color: #6C99D1;
+    background-color: #69C4CE;
     top: 80%;
     left: -30px;
     opacity: 0.6;
@@ -295,6 +295,15 @@ button{
     right: 400px;
     opacity: 0.6;
     animation: bounceTop 10s ease-in-out infinite;
+}
+.bg-circles .circles-8{
+    height: 240px;
+    width: 240px;
+    background-color: #2A4C92;
+    left: 20%;
+    top: 70%;
+    opacity: 0.4;
+    animation: zoomInOut 8s linear infinite;
 }
 /* Overlay */
 .overlay{
